@@ -1,4 +1,4 @@
-from prod import check_password_strength
+from pwd import check_password_strength
 
 def test_strong_password():
     assert check_password_strength("Amrutha123") == "Strong Password"
